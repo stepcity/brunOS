@@ -1,0 +1,22 @@
+NOTES:
+MISSING FILES                The source tarballs for the cross-compiler and software are not included
+HTML CSS ICONS               The HTML, CSS, and ICONS are not included via HTTPS this index
+
+MISCELLANEOUS FILES:
+INDEX                        Lists the purpose of the files on this server
+LICENSE                      The MIT License
+README.md                    Git(hub) README
+
+release/ (directory)         Stores tarballs of releases
+ |
+ \- v0pa0/ (directory)       Stores the v0.0.0 Pre-Alpha.0 version tarballs
+ |\
+ | |- *-v0pa0.png            Screenshots
+ | |- kernel-v0pa0.tar.*     Multiboot Kernel
+ | |- os-v0pa0.tar.*         GNU GRUB ISO
+ |
+ \- v0pa1/ (directory)       Stores the v0.0.0 Pre-Alpha.1 version tarballs
+  \
+   |- *-v0pa1.png            Screenshots
+   |- cdrom-v0pa1.tar.*      Multiboot Kernel + QEMU Execution script
+   |- kernel-v0pa1.tar.*     GNU GRUB ISO + QEMU Execution script

@@ -1,0 +1,28 @@
+h1 {
+  border: 4px ridge #f5f5dc;
+  padding: 3px 5px;
+  
+  background: #f5f5dc;
+}
+
+table {
+  width: 100%;
+  
+  border: 4px ridge #f5f5dc;
+  
+  background: #f5f5dc;
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+th, td {
+  min-width: 128px;
+  
+  border: 2px groove #f5f5dc;
+  padding: 3px 5px;
+  
+  background: #fff;
+  text-align: left;
+}
