@@ -1,8 +1,24 @@
-h1 {
-  border: 4px ridge #f5f5dc;
-  padding: 3px 5px;
-  
-  background: #f5f5dc;
+@import url('https://stepcity.github.io/common/fonts/fonts.css');
+
+*{font-family: "Times Pixelated 16", "Times New Roman", serif}
+body {font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif}
+h1 {margin: 24px 4px;border: 4px ridge #f5f5dc;padding: 3px 5px;background: #f5f5dc;font-size: 32px;font-family: "Times Pixelated 32", "Times New Roman", serif;text-shadow: -1px -1px #ffffff, 1px 1px #808080;}
+h2 {margin: 22px 4px;padding: 3px 5px;font-size: 24px;font-family: "Times Pixelated 24", "Times New Roman", serif}
+h3 {margin: 18px 4px;padding: 3px 5px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
+h4 {margin: 16px 4px;padding: 3px 5px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif;text-decoration: underline}
+h5 {margin: 16px 4px;padding: 3px 5px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif;font-style: oblique;text-decoration: underline}
+p {margin: 12px 4px;padding: 0px;font-size: 16px;font-family: "Times Pixelated 16", "Times New Roman", serif}
+a {color: #0000ff}
+a:hover {color: #ff00ff}
+a:active {color: #ff0000}
+
+hr {
+  border: 2px inset;
+  border-color: #f5f5dc;
+}
+
+img {
+	image-rendering: crisp-edges;
 }
 
 table {
@@ -13,9 +29,6 @@ table {
   background: #f5f5dc;
 }
 
-hr {
-  border: 1px solid #000;
-}
 
 th, td {
   min-width: 128px;
@@ -23,6 +36,6 @@ th, td {
   border: 2px groove #f5f5dc;
   padding: 3px 5px;
   
-  background: #fff;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.75));
   text-align: left;
 }
