@@ -1,0 +1,9 @@
+# brunOS
+### Bruno's own Operating System
+This is a personal project meant to help me learn the C and Assembly language families. It is an operating system with a 
+GNU Multiboot compatible kernel. So far there isn't much implemented, I only have a (basic) VGA driver with newlines, scrolling, 
+and 16 colors. I plan on adding a Global Descriptor Table (GDT) and a Bootloader, possible a fork of BOOTBOOT. 
+
+### Architecture
+brunOS is currently Unix-like in that it uses a SystemV ABI and a /usr system root. However, I don't plan on any similarities going
+far beyond that.
